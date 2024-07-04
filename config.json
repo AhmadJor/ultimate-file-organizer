@@ -1,0 +1,33 @@
+{
+    "source_dir": "C:/Users/jorba/OneDrive/Desktop/organize/source",
+    "directories": {
+        "Reports": [".pdf", ".docx", ".txt"],
+        "Assignments": [".pdf", ".docx", ".txt"],
+        "Images": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg"],
+        "Screenshots": [".jpg", ".jpeg", ".png"],
+        "Audio": [".mp3", ".wav", ".aac", ".flac"],
+        "Video": [".mp4", ".avi", ".mkv", ".mov"],
+        "Archives": [".zip", ".tar", ".gz", ".rar"],
+        "Scripts": [".py", ".js", ".html", ".css"],
+        "Others": []
+    },
+    "patterns": {
+        "Reports": "(report|summary|analysis|דו\"ח|תַּקצִיר|تقرير|ملخص|تحليل)",
+        "Assignments": "(assignment|homework|task|מַטָּלָה|שיעורי בית|واجب|مهمة)",
+        "Screenshots": "(screenshot|screen|צילום מסך|لقطة شاشة)",
+        "Scripts": "(script|code|תַסרִיט|رمز|كود)",
+        "Images": "(image|picture|תמונה|صورة)",
+        "Audio": "(audio|sound|קול|صوت)",
+        "Video": "(video|וידאו|فيديو)",
+        "Archives": "(archive|ארכיון|أرشيف)"
+    },
+    "email": {
+        "from": "your_email@example.com",
+        "to": "recipient_email@example.com",
+        "smtp_server": "smtp.example.com",
+        "smtp_port": 587,
+        "password": "your_password"
+    },
+    "training_data_dir": "C:/Users/jorba/OneDrive/Desktop/organize/training_data",
+    "new_data_dir": "C:/Users/jorba/OneDrive/Desktop/organize/new_data"
+}
